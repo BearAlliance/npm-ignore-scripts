@@ -1,0 +1,17 @@
+{
+  "name": "ignore-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-no-scripts": "npm install --ignore-scripts",
+    "node-sass": "node-sass -o . index.scss",
+    "preinstall": "echo \"Preinstall script running\"",
+    "postinstall": "echo \"Postinstall script running\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
